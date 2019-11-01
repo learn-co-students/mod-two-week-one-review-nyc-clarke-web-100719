@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="908d2bbb-ee45-4388-8ce9-53656f9f188f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Rails-Seven-Seas/app/assets/images/corneal-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rails-Seven-Seas/app/assets/images/grace-hopper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rails-Seven-Seas/app/assets/images/jack-sparrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rails-Seven-Seas/app/views/layouts/layout.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rails-Seven-Seas/app/views/seas/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rails-Seven-Seas/app/views/seas/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rails-Seven-Seas/app/views/seas/welcome.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rails-Seven-Seas/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Rails-Seven-Seas/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rails-Seven-Seas/app/controllers/seas_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Rails-Seven-Seas/app/controllers/seas_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rails-Seven-Seas/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/Rails-Seven-Seas/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rails-Seven-Seas/app/views/seas/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/Rails-Seven-Seas/app/views/seas/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rails-Seven-Seas/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Rails-Seven-Seas/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rails-Seven-Seas/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Rails-Seven-Seas/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sinatra-seven-seas/app/controllers/seas_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/sinatra-seven-seas/app/controllers/seas_controller.rb" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1T15W4uCsPyYzeN6tiIRljk9to1" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Rails-Seven-Seas/app/views/layouts" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Rails-Seven-Seas/app/views/layouts" />
+      <recent name="$PROJECT_DIR$/Rails-Seven-Seas/app/views/seas" />
+      <recent name="$PROJECT_DIR$/Rails-Seven-Seas/app/assets/images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="908d2bbb-ee45-4388-8ce9-53656f9f188f" name="Default Changelist" comment="" />
+      <created>1572614789092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572614789092</updated>
+      <workItem from="1572614790406" duration="12263000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
