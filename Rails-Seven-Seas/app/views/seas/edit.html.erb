@@ -1,28 +1,28 @@
-<%= form_for @sea do |f| %>
-  <%= f.label :name %>
-  <%= f.text_field :name %>
-
-  <%= f.label :temperature %>
-  <%= f.number_field :temperature %>
-
-  <%= f.label :bio %>
-  <%= f.text_area :bio %>
-
-  <%= f.label :image_url %>
-  <%= f.text_field :image_url %>
-
-  <%= f.label :mood %>
-  <%= f.text_field :mood %>
-
-  <%= f.label :favorite_color %>
-  <%= f.text_field :favorite_color %>
-
-  <%= f.label :scariest_creature %>
-  <%= f.text_field :scariest_creature %>
-
-  <%= f.label :has_mermaids %>
-  <%= f.check_box :has_mermaids %>
-
-  <%=  f.submit %>
-
-  <% end %>
+<div class="container">
+<%= form_tag sea_path, method: "put" do %>
+  <p>Name: <%= text_field_tag :'sea[name]', @sea.name, class: "form-control" %></p>
+  <p>Bio: <%= text_field_tag :'sea[bio]', @sea.bio, class: "form-control" %></p>
+  <p>Image URL: <%= text_field_tag :'sea[image_url]', @sea.image_url, class: "form-control" %></p>
+  <p>Temperature: <%= text_field_tag :'sea[temperature]', @sea.temperature, class: "form-control" %></p>
+  <p>Favorite Color: <%= text_field_tag :'sea[favorite_color]', @sea.favorite_color, class: "form-control" %></p>
+  <p>Scariest Creature: <%= text_field_tag :'sea[scariest_creature]', @sea.scariest_creature, class: "form-control" %></p>
+  <p>Mood: <%= text_field_tag :'sea[mood]', @sea.mood, class: "form-control" %></p>
+  <p><%= check_box_tag :'sea[has_mermaids]', 1, @sea.has_mermaids %> Has Mermaids</p>
+  <%= submit_tag "Submit", class: "form-control btn btn-info" %>
+<% end %>
+ 
+<div class="text-center row" style="margin: 1em">
+    <div class="col-sm-1">
+    <%= button_to "Back", sea_path, method: "get", class: "btn btn-info", style: "margin: 0 auto" %>
+    </div>
+    <div class="col-sm-1">
+    <%= button_to "All Seas", seas_path, method: "get", class: "btn btn-info", style: "margin: 0 auto" %>
+    </div>
+    <div class="col-sm-9">
+    </div>
+    <div class="col-sm-1">
+    <%= button_to "Delete" , sea_path, method: "delete", class: "btn btn-danger", style: "margin: 0 auto" %>
+    </form>
+    </div>
+  </div>
+  </div>
